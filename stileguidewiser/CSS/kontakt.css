@@ -1,0 +1,102 @@
+.kontaktside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.kontaktbox{
+    width: 40rem;
+}
+.info{
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #3DCD58;
+    font-weight: 600;
+    text-align: center;
+}
+.kontaktformular{
+    border-radius: 10px;
+    margin: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #3DCD58;
+}
+#error{
+    font-size: 1.5rem;
+    margin: 3rem;
+    font-weight: 400;
+}
+.contactform{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    background-color: #3DCD58;
+    align-items: center;
+    border-radius: 10px;
+}
+.kontakt-input{
+    height: 3rem;
+    width: 30rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+.besked-input{
+    height: 10rem;
+    width: 30rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+.submit-form{
+    margin-left: 25.3rem;
+    width: 5rem;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+    font-size: 1.5rem;
+    color: #3DCD58;
+    font-weight: 600;
+    height: 4rem;
+}
+.submit-form:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 480px){
+    .kontaktbox{
+        width: 20rem;
+    }
+    .info{
+        padding: 1rem;
+        font-size: 1.1rem;
+        text-align: left;
+    }
+    .kontaktformular{
+        width: 15rem;
+        height: 27.5rem;
+    }
+    #error{
+        font-size: 1rem;
+        margin: 1rem;
+    }
+    .contactform{
+        margin: 0;
+        padding: 5px;
+    }
+    .kontakt-input{
+        height: 2rem;
+        width: 13rem;
+        margin: 0.5rem;
+    }
+    .besked-input{
+        height: 7rem;
+        width: 13rem;
+        margin: 0.5rem;
+    }
+    .submit-form{
+        margin-left: 0rem;
+        width: 5rem;
+        height: 3.5rem;
+        font-size: 1rem;
+    }
+}

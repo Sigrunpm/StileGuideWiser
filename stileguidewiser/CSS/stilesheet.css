@@ -1,0 +1,461 @@
+/*Grund elemneter for body*/
+  body {
+   background-color: white;
+   font-family: 'Arial Rounded MT', Arial, sans-serif;                                        
+  }
+
+/*Header*/
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+
+  /*Header*/
+  .logo2 {
+    width: 100%;
+    height: auto;
+  }
+
+/*navbar start*/
+  .side {
+   width: 25%;
+   padding-top: 2%;
+  }
+
+  .topnav1 {
+   overflow: hidden;
+  }
+  
+/*Navbar Design*/
+  .topnav1 a {
+    width: 50%;
+    float: right;
+    background-color: #009530;
+    color: rgb(255, 246, 246);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 0.75rem;
+    margin: 2px;
+    border: 2px solid #009530;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+/*Navbar Hover*/
+  .topnav1 a:hover {
+    border-radius: 12px;
+    background-color: rgb(255, 246, 246);
+    color: #009530;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+/*Navbar active*/
+  .topnav1 a.active {
+    background-color: rgb(255, 246, 246);
+    color: #009530;
+    border-radius: 12px;
+  }
+/*Navbar slut*/
+
+/*Content- Højre box start*/
+ .row {  
+   width: 70%;
+   float: right;
+   padding: 2%;
+   margin-top: -570px;
+ }
+/*Content- Højre box slut*/
+
+/*Main Start*/
+   .overskrift {
+     color: #009530;
+     margin-left: 15px;
+     margin-right: 5px;
+     font-size: 1.5em;
+     margin-top: 115px;
+   }
+
+   .tekstom {
+     color: #626469;
+     font-weight: 300;
+     line-height: 1.44;
+     margin-left: 15px;
+     margin-right: 5px;
+     font-size: 0.5em;
+   }
+/*Main slut*/ 
+
+/*PLACE EKSEMPLER CSS*/
+
+/*CSS BUTTONS*/
+.img3 {
+  width: 30%;
+  height: 10%;
+  font-family: wise;
+  background-color: #42b4e6;
+  color: white;
+  font-size: 1em;
+  line-height: 20px;
+  font-weight: 400;
+  align-items: center;
+  border: 0;
+  border-radius: 5px; 
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  padding: 0 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.img1 {
+  width: 100%;
+  border-radius: 60%;
+}
+
+.img1:hover {
+  box-shadow: 0 12px 16px 0 #626469,0 17px 50px 0 #626469;
+}
+
+.img2 {
+  width: 100%;
+  border-radius: 18%;
+}
+
+.img2:hover {
+  box-shadow: 0 12px 16px 0 #626469,0 17px 50px 0 #626469;
+}
+
+.img3:hover {
+  box-shadow: 0 12px 16px 0 #626469,0 17px 50px 0 #626469;
+}
+
+.img1:active {
+  transform: translateY(10px);
+}
+
+.img2:active {
+  transform: translateY(10px);
+}
+
+.img3:active {
+  transform: translateY(10px);
+}
+
+.overskrift1 {
+  color: #009530;
+  margin-right: 5px;
+  font-size: 1em;
+  text-align: center;
+}
+
+.code {
+  margin-top: -4px;
+  color: #626469;
+  font-weight: 300;
+  font-size: 0.5em;
+}
+
+.code1 {
+  color: #626469;
+  font-weight: 300;
+  font-size: 0.75rem;
+  margin-left: 15px;
+}
+
+p.code {
+  margin-bottom: 30px;
+}
+
+/*CSS COLORS*/
+.prime {
+  width: 25%;
+  float: left;
+  margin-left: 15px;
+}
+
+.sek {
+  width: 25%;
+  float: right;
+  margin-right: 50px;
+}
+
+.img {
+  width: 120%;
+  height: auto;
+}
+
+/*CSS KONTAKT FORMULAR*/
+
+/*CSS LAYOUT HEADER OG FOOTER*/
+
+/*CSS THYPOGRAFI*/
+.overskrift2 {
+  color: #009530;
+  margin-left: 15px;
+  margin-right: 5px;
+  font-size: 1.5em;
+}
+
+.overskrift3 {
+  color: #009530;
+  margin-left: 15px;
+  margin-right: 5px;
+  font-size: 1.25em;
+}
+
+.overskrift4 {
+  color: #009530;
+  margin-left: 15px;
+  margin-right: 5px;
+  font-size: 1em;
+}
+
+.overskrift5 {
+  color: black;
+  margin-left: 15px;
+  margin-right: 5px;
+  font-size: 0.75em;
+}
+
+/*CSS SIMULATOR*/
+
+/*CSS IKONER*/
+.img5 {
+  width: 50%;
+}
+
+.img6 {
+  width: 30%;
+}
+
+/*Footer Start*/ 
+  .bund {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 0.75em;
+    border-radius: 12px;
+    background-color: #3dcd58;
+    padding: 5px;
+  }
+
+  .fix1 {
+    margin-top: 400%;
+  }
+
+  .fix {
+    margin-top: 110%;
+  }
+  
+
+
+@media screen and (min-width: 768px) {
+  .overskrift {
+    margin-left: 35px;
+    margin-top: 70px;
+    font-size: 2em;
+  }
+  .tekstom {
+    margin-left: 35px;
+    font-size: 1em;
+  }
+  .topnav1 a {
+    width: 68%;
+    font-size: 1em;
+  }
+  .overskrift1 {
+    font-size: 1.5em;
+  }
+
+
+/*PLACER MEDIA QUARARY 768px*/
+
+/*BUTTONS*/
+.img3 {
+  margin-left: 35px;
+  width: 20%;
+  height: 50px;
+  font-size: 1.5em;
+}
+.code1 {
+  margin-left: 35px;
+}
+
+/*COLORS*/
+.prime {
+  margin-left: 35px;
+}
+.sek {
+  margin-right: 75px;
+}
+.img {
+  width: 140%;
+  height: auto;
+}
+.code {
+  font-size: 1em;
+}
+
+/*KONTAKT FORMULAR*/
+
+/*LAYOUT HEADER OG FOOTER*/
+
+/*FONT*/
+.overskrift2 {
+  margin-left: 35px;
+  font-size: 2em;
+}
+.overskrift3 {
+  margin-left: 35px;
+  font-size: 1.75em;
+}
+.overskrift4 {
+  margin-left: 35px;
+  font-size: 1.5em;
+}
+.overskrift5 {
+  margin-left: 35px;
+  font-size: 1em;
+}
+
+/*SIMULATOR*/
+}
+
+@media screen and (min-width: 1024px) {
+  .overskrift {
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 2.5em;
+  }
+  .tekstom {
+    margin-left: 50px;
+    font-size: 1em;
+  }
+  .topnav1 a {
+    width: 73%;
+    font-size: 1.25em;
+  }
+  .overskrift1 {
+    font-size: 2em;
+  }
+
+
+  /*PLACER MEDIA QUARARY 1024px*/
+
+ /*BUTTONS*/
+ .img3 {
+  margin-left: 50px;
+  font-size: 2em;
+}
+.code1 {
+  margin-left: 50px;
+}
+
+ /*COLORS*/
+ .prime {
+  margin-left: 50px;
+}
+.sek {
+  margin-right: 100px;
+}
+.code {
+  margin-top: 0px;
+  font-size: 1.25em;
+}
+
+ /*KONTAKT FORMULAR*/
+
+ /*LAYOUT HEADER OG FOOTER*/
+
+ /*FONT*/
+ .overskrift2 {
+  margin-left: 50px;
+  font-size: 2.5em;
+}
+.overskrift3 {
+  margin-left: 50px;
+  font-size: 2.25em;
+}
+.overskrift4 {
+  margin-left: 50px;
+  font-size: 2em;
+}
+.overskrift5 {
+  margin-left: 50px;
+  font-size: 1.5em;
+}
+
+ /*SIMULATOR*/
+ }
+
+@media screen and (min-width: 1440px) {
+  .overskrift {
+    margin-left: 68px;
+    font-size: 3em;
+  }
+  .row {
+    margin-top: -625px;
+  }
+  .side {
+    margin-top: 50px;
+  }
+  .overskrift1 {
+    font-size: 2.5em;
+  }
+  .tekstom {
+    margin-left: 68px;
+  }
+  .topnav1 a {
+    width: 77%;
+    font-size: 1.5em;
+  }
+
+  /*PLACER MEDIA QUARARY 1440px*/
+
+  /*BUTTONS*/
+  .img3 {
+    margin-left: 68px;
+    height: 65px;  }
+  .code1 {
+    margin-left: 68px;
+  }
+
+  /*COLORS*/
+  .prime {
+    margin-left: 68px;
+  }
+  .sek {
+    margin-right: 150px;
+  }
+  .code {
+    font-size: 1.5em;
+  }
+
+  /*KONTAKT FORMULAR*/
+
+  /*LAYOUT HEADER OG FOOTER*/
+
+  /*FONT*/
+  .overskrift2 {
+    margin-left: 68px;
+    font-size: 3em;
+  }
+  .overskrift3 {
+    margin-left: 68px;
+    font-size: 2.75em;
+  }
+  .overskrift4 {
+    margin-left: 68px;
+    font-size: 2.25em;
+  }
+  .overskrift5 {
+    margin-left: 50px;
+    font-size: 1.75em;
+  }
+
+  /*SIMULATOR*/
+  }

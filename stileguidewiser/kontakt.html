@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Dette er en Sile Guide for Lauritz Knudsen by Schneider Electric, for produktserien wiser">    
+<title>WiserStileGuide-KontaktFormular</title>
+<link rel="stylesheet" href="CSS/stilesheet.css">
+<link rel="stylesheet" href="CSS/kontakt.css">
+<script src="JS/index.js" defer></script>
+<script src="JS/kontakt.js" defer></script>
+<link href="http://fonts.cdnfonts.com/css/arial-rounded-mt" rel="stylesheet">               
+</head>
+  <body>
+      <header>
+         <!--Header-->
+         <div class="header">
+           <img class="logo" src="billeder/wiserlogo.png" alt="logo">
+         </div>
+      </header>
+      <nav>
+          <div class="side">
+              <!--Navbaren-->
+              <div class="topnav1">
+                  <a href="index.html">Home</a>
+                  <a href="buttons.html">Knapper</a>
+                  <a href="color.html">Colors</a>
+                    <a class="active" href="kontakt.html">Formular</a>
+                  <a href="pictures.html">Karusel</a>
+                  <a href="layout.html">Layout</a>
+                  <a href="fonts.html">Fonts</a>
+                  <a href="simulator.html">Simulator</a>
+                  <a href="andet.html">Ikoner</a>   
+              </div>
+          </div>
+      </nav> 
+      <main>
+          <!--tekst - til højre EKSEMPLER-->
+          <div class="row"> 
+            <div class="topnav1">
+               <!--INDSÆT OVERSKriFT-->
+               <h1 class="overskrift">KontaktFormular - Wiser - Smart Home</h1>
+                <!--INDSÆT OM EMNET-->
+                <p class="tekstom">Dette er den designede kontakformular, det forventes at alle fremtidige kontaktformularer følger det samme design</p>
+                <!--INDSÆT EKSEMPLER-->
+              <div class="kontaktside">    
+               <div class="kontaktformular">
+                <p id="error"></p>
+                <form id="form-contact" class="contactform" autocomplete="on" onsubmit="check()">
+                    <input id="navn" class="kontakt-input" type="text" placeholder="Navn">
+                    <input id="mail" class="kontakt-input" type="text" placeholder="E-mail">
+                    <input id="tlf" class="kontakt-input" type="text" placeholder="Telefonnummer">
+                    <input id="emne" class="kontakt-input" type="text" placeholder="Emne">
+                    <input id="besked" class="besked-input" type="text" placeholder="Skriv besked her">
+                    <button id="send" type="submit" class="submit-form">Send</button>
+                </form>
+               </div>
+              </div>
+        
+                <p class="tekstom">
+                  &lt;div class="kontaktformular"&gt; <br>
+                  &lt;p id="error"&gt;&lt;/p&gt; <br>
+                  &lt;form id="form-contact" class="contactform" autocomplete="on" onsubmit="check()"&gt; <br>
+                  &lt;input id="navn" class="kontakt-input" type="text" placeholder="Navn"&gt; <br>
+                  &lt;input id="mail" class="kontakt-input" type="text" placeholder="E-mail"&gt; <br>
+                  &lt;input id="tlf" class="kontakt-input" type="text" placeholder="Telefonnummer"&gt; <br>
+                  &lt;input id="emne" class="kontakt-input" type="text" placeholder="Emne"&gt; <br>
+                  &lt;input id="besked" class="besked-input" type="text" placeholder="Skriv besked her"&gt; <br>
+                  &lt;button id="send" type="submit" class="submit-form">Send&lt;/button&gt; <br>
+                  &lt;/form&gt; <br>
+                  &lt;/div&gt; <br>
+                </p>
+          </div>
+        </div>
+      </main>
+      <br>
+         <footer>
+           <div class="fix">
+           <div class="bund">
+             <h3>KONTAKT</h3>
+             <p>Kamilla Schlander Øserberg. Email: Kamillaoesterberg@live.dk</p>
+             <p>Cecilie Thielsen Email: Cecilie.mft@hotmail.com</p>
+             <p>Sigrun Prægel Mouritsen Email: Sigrunpm@gmail.com</p>
+              <p>&copy; 2 Semester eksamen MMD Gruppe 22 2022</p>
+           </div>
+          </div>
+         </footer>
+    </body>
+  </html>

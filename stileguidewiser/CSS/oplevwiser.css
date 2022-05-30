@@ -1,0 +1,217 @@
+
+/*Tredje sektion Sektion*/
+/*Simulator*/
+.flex-container5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container5 > div {
+  height: auto;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.img5 {
+  margin-right: 50%;
+}
+
+.stile {
+  width: 30px;
+  margin-top: 9px;
+  margin-left: 5px;
+}
+
+.container5 {
+  position: relative;
+}
+/*Tekst på billeder*/
+.bottom-left5 {
+  position: absolute;
+  bottom: 25px;
+  left: 110%;
+  font-size: 3vw;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.1;
+  width: 10px;
+}
+
+/*simulator gemmes*/
+#gem {
+  display: none;
+}
+
+.emoji {
+  display: none;
+}
+
+.emoji1 {
+  display: none;
+}
+
+.emoji2 {
+  display: none;
+}
+
+.emoji3 {
+  display: none;
+}
+
+#myImagei {
+  display: none;
+}
+
+.hov {
+  display: none;
+}
+
+.hov {
+  display: none;
+}
+
+.hov:active {
+  display: none;
+}
+
+.closedTn {
+  display: none;
+}
+
+.openTn {
+  display: none;
+}
+
+.activeTn {
+  display: block;
+}
+
+.closedTi {
+  display: none;
+}
+
+.openTi {
+  display: none;
+}
+
+.activeTi {
+  display: block;
+}
+
+.closedTa {
+  display: none;
+}
+
+.openTa {
+  display: none;
+}
+
+.activeTa {
+  display: block;
+}
+
+.closedTb {
+  display: none;
+}
+
+.openTb {
+  display: none;
+}
+
+.activeTb {
+  display: block;
+}
+
+  /*Layout for flex wrap knapper til simulator - samme layout som sektion 2, nyt class til billede, grundet størrelse ændres*/
+ /*Billeder i tredje sektion*/
+ .img3 {
+   width: 50%;
+   border-radius: 18%;
+  }
+
+ 
+
+
+  @media screen and (min-width: 768px) {
+      .hov {
+        width: 55px;
+        height: 55px;
+      }
+      .stile {
+        width: 30px;
+      }
+      .container5 {
+        position: relative;
+      }
+      .bottom-left5 {
+        position: absolute;
+        bottom: 25px;
+        left: 110%;
+        font-size: 3vw;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 1.1;
+        width: 10px;
+      } 
+      .tekstny {
+        display: block;
+      }
+      #gem {
+        display: block;
+      }
+      .emoji {
+        width: 10px;
+        font-size: 0.07rem;
+        cursor: pointer;
+        user-select: none;
+        margin-bottom: 20%;
+        margin-left: 30%; 
+        display: block; 
+      }
+      .emoji1 {
+      font-size: 0.75rem;
+      cursor: pointer;
+      user-select: none;
+      margin-bottom: 20%;
+      margin-left: 44%;
+      display: block;
+      }
+      .emoji2 {
+      font-size: 0.75rem;
+      cursor: pointer;
+      user-select: none;
+      margin-bottom: 35%;
+      margin-left: 30%;
+      display: block;
+      }
+      .emoji3 {
+      font-size: 0.75rem;
+      cursor: pointer;
+      user-select: none;
+      margin-bottom: 35%;
+      margin-left: 44%;
+      display: block;
+      }
+      #myImagei {
+         width: 170%;
+         height: auto;
+         display: block;
+         display: block;
+      }
+      .hov {
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        display: block;
+      }
+      .hov {
+        box-shadow: 0 2px 6px 0 #626469,0 5px 15px 0 #626469;
+        display: block;
+      }
+      .hov:active {
+        transform: translateY(10px);
+        display: block;
+      }
+    }
+
+ 

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Dette er en Sile Guide for Lauritz Knudsen by Schneider Electric, for produktserien wiser">    
+<title>WiserStileGuide-Layout</title>
+<link rel="stylesheet" href="CSS/stilesheet.css">
+<link rel="stylesheet" href="CSS/style.css">
+<link href="http://fonts.cdnfonts.com/css/arial-rounded-mt" rel="stylesheet">               
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="JS/main.js" defer></script>
+<script src="JS/index.js" defer></script>
+<script src="JS/forside.js" defer></script>
+</head>
+  <body onload="printArray()">
+      <header>
+         <!--Header-->
+         <div class="header">
+           <img class="logo2" src="billeder/wiserlogo.png" alt="logo">
+         </div>
+      </header>
+      <nav>
+          <div class="side">
+              <!--Navbaren-->
+              <div class="topnav1">
+                  <a href="index.html">Home</a>
+                  <a href="buttons.html">Knapper</a>
+                  <a href="color.html">Colors</a>
+                  <a href="kontakt.html">Formular</a>
+                  <a href="pictures.html">Karusel</a>
+                  <a class="active" href="layout.html">Layout</a>
+                  <a href="fonts.html">Fonts</a>
+                  <a href="simulator.html">Simulator</a>
+                  <a href="andet.html">Ikoner</a>   
+              </div>
+          </div>
+      </nav> 
+      <main>
+        <!--tekst - til højre EKSEMPLER-->
+        <div class="row"> 
+          <div class="topnav1">
+             <!--INDSÆT OVERSKriFT-->
+             <h1 class="overskrift">Layout - Wiser - Smart Home</h1>
+              <!--INDSÆT OM EMNET-->
+              <p class="tekstom">Her har vi header og footer.</p>
+<!--INDSÆT EKSEMPLER-->
+
+              <!--INDSÆT KODEN TIL EKSEMPLET-->
+              <h1>Header:</h1>
+              <p class="tekstom">
+                &lt;div class="header"&gt;xxx&lt;/div&gt; <br>
+                &lt;div id="headercontainer"&gt;xxx&lt;/div&gt; <br>
+                &lt;div id="burgermenu"&gt;xxx&lt;/div&gt; <br>
+                &lt;div id="buttons"&gt;xxx&lt;/div&gt; <br>
+                &lt;div id="menu"&gt;xxx&lt;/div&gt; <br>
+                &lt;div class="dropdown"&gt;xxx&lt;/div&gt; <br>
+                &lt;div class="dropdown-content"&gt;xxx&lt;/div&gt; <br>
+                &lt;div id="roundbuttons"&gt;xxx&lt;/div&gt; <br>
+              </p>
+              <h1>Footer:</h1>
+              <p class="tekstom">
+                &lt;footer> <br>
+                &lt;div class="social"&gt;xxx&lt;/div&gt; <br>
+                &lt;div class="nyhedsbrev"&gt;xxx&lt;/div&gt; <br>
+                &lt;/footer&gt;
+              </p>
+            </div>
+        </div>
+      </main>
+      <br><br><br>
+          <header>
+            <h1>Header:</h1>
+              <div class="header">
+                  <div id="headercontainer">
+                    <a href="index.html">
+                      <img src="img/wiser-logo1.png" alt="wiser-logo" class="logo1">
+                    </a>
+                      <div id="buttons">
+                        <button id="erhverv">ERHVERV</button>
+                        <button id="privat">PRIVAT</button>
+                      </div>
+                  </div>
+                <!--Burgermenu-->
+                <div id="burgermenu"> 
+                  <span></span>
+                </div>
+                <div id="menu">
+                  <a href="index.html" class="active">HJEM</a>
+                  <div class="dropdown">
+                  <button class="btn1">SORTIMENT</button>
+                    <div class="dropdown-content">
+                      <a href="#">Stikkontakter og funktioner</a>
+                      <a href="#">Smarthome-løsninger</a>
+                      <a href="#">Andre løsninger</a>
+                      <a href="#">Produktkatalog</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <button class="btn1">OPLEV WISER</button>
+                    <div class="dropdown-content">
+                      <a href="oplev-wiser-smarthome.html">Prøv Wiser Simulator</a>
+                      <a href="#">Om Wiser</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <button class="btn1">SÅDAN FÅR DU WISER</button>
+                    <div class="dropdown-content">
+                      <a href="#">Gør det selv</a>
+                      <a href="#">Bestil et tilbud fra en elektriker</a>
+                      <a href="#">Kan du få Wiser?</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <button class="btn1">KONTAKT OS</button>
+                    <div class="dropdown-content">
+                      <a href="kontakt-wiser-smarthome.html">Kontakt Schneider Electric</a>
+                      <a href="#">Kontakt elektriker</a>
+                      <a href="#">Chat med support</a>
+                    </div>
+                  </div>
+                  <div id="roundbuttons">
+                    <img src="img/search.png" alt="Search" class="search">
+                    <img src="img/profile.png" alt="Profile" class="profile">
+                  </div> 
+                </div>
+              </div>
+            </header>
+            <h1>Footer:</h1>
+            <footer>
+            <section class="footer">
+              <div class="social">
+                  <a href="https://twitter.com/SchneiderElecDK"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.facebook.com/LauritzKnudsenbySchneiderElectric"><i class="fab fa-facebook"></i></a>
+                  <a href="https://www.linkedin.com/company/schneider-electric/"><i class="fab fa-linkedin"></i></a> 
+                  <a href="https://www.youtube.com/user/SchneiderElectricDK"><i class="fab fa-youtube"></i></a>    
+              </div>
+              <ul class="list">
+                <li> <b><a href="https://www.lk.dk/om-os">Om os</a></b></li>
+                <li> <b><a href="https://www.lk.dk/om-os/historie/">Vores historie</a></b></li>
+                <li> <b><a href="https://www.lk.dk/om-os/job-og-karriere/">Job og karriere</a></b></li>
+                <li> <b><a href="https://www.lk.dk/om-os/presserum/">Presserum</a></b></li>
+                <li> <b><a href="https://www.lk.dk/om-os/baeredygtighed/">Bæredygtighed</a></b></li>
+              </ul>
+                <p class="copyright"> &copy; Schneider Electric 2022 -  <a href="https://www.se.com/dk/da/about-us/legal/data-privacy.jsp">Privatlivspolitik</a> |
+                    <a href="https://www.lk.dk/disclaimer/">Cookiepolitik</a> |
+      
+                    <a href="https://www.se.com/dk/da/about-us/legal/terms-of-use.jsp">Vilkår for anvendelse og ophavsret</a> 
+                </p>
+                <p class="lk"> Schneider Electric Danmark A/S, Lautrupvang 1, 2750 Ballerup, CVR: 70698714</p>
+                    <div class="nyhedsbrev">
+                      <p> Tilmeld nyhedsbrev <br>
+                          Få specifikke nyheder direkte i din indbakke
+                          <br>
+                          <br>
+                          <button class="tilmeld">Tilmeld</button>
+                      </p>         
+                    </div>
+            </section>
+            </footer>
+            <br>
+            <div class="bund">
+              <h3>KONTAKT</h3>
+              <p>Kamilla Schlander Øserberg. Email: Kamillaoesterberg@live.dk</p>
+              <p>Cecilie Thielsen Email: Cecilie.mft@hotmail.com</p>
+              <p>Sigrun Prægel Mouritsen Email: Sigrunpm@gmail.com</p>
+               <p>&copy; 2 Semester eksamen MMD Gruppe 22 2022</p>
+            </div>
+    </body>
+  </html>
